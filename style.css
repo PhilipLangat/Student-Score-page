@@ -1,0 +1,62 @@
+body {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 24px;
+    color: red;
+}
+
+p strong {
+    font-size: 36px;
+}
+
+h2 strong {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.score {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.score img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: navy;
+}
